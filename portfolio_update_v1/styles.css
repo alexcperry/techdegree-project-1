@@ -58,6 +58,8 @@ a:hover {
 header {
   text-align: center;
   background: url('images/boston.jpg') no-repeat top center ;
+  /*I retrieved this image from 
+  https://www.thrillist.com/lifestyle/boston/things-to-do-in-boston.*/
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
