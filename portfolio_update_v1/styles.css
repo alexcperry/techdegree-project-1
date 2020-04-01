@@ -83,11 +83,12 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
-.location {
-  background-color: #222;
-  color: yellow;
 }
+
+.sub {
+  color: gray; 
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -120,10 +121,48 @@ ul.skills {
   background: #0399ff;
 }
 
+ul.skills-two {
+  padding: 0;
+  text-align: center;
+}
+
+.skills-two li{
+  border-radius: 6px;
+  display: inline-block;
+  background: #0399ff;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills-two li:nth-child(odd) {
+  background: #ff9904;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+}
+
+.center {
+  align-content: center;
+}
+
+section {
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 20px 40px 30px;
+  max-width: 1200px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+section h3 {
+  color: #b0b0b0;
 }
 
 footer .copyright {
